@@ -56,7 +56,7 @@ class BootstrapAlert extends Control
 
         if ($alertType == NULL)
         {
-            $alertType = AlertType::WARNING;
+            $alertType = AlertType::WARNING();
         }
 
         $template->alertHeader = $alertHeader;
