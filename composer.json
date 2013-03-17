@@ -1,0 +1,30 @@
+{
+    "name": "illagrenan/nette-bootstrap-alert-control",
+    "description": "Nette komponenta pro výpis Twitter Bootstrap alertů",
+    "keywords": ["nette", "twitter bootstrap", "control"],
+    "type": "library",
+    "homepage": "https://github.com/illagrenan/nette-bootstrap-alert-control",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vašek Dohnal",
+            "email": "info@vaclavdohnal.cz",
+            "homepage": "http://www.vaclavdohnal.cz",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@vaclavdohnal.cz",
+        "forum": "https://github.com/illagrenan/nette-bootstrap-alert-control/issues"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "nette/nette": "@dev",
+        "eloquent/enumeration": "@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Illagrenan\\BootstrapAlert\\": "src/"
+        }
+    }
+}

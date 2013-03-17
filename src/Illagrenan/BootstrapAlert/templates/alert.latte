@@ -1,0 +1,16 @@
+{**
+   * Šablona drobečkové navigace.
+   *
+   * @license http://opensource.org/licenses/MIT MIT
+   * @author Vašek Dohnal <hello@vaclavdohnal.cz>
+   *
+   * @param string    $alertHeader    Nadpis chybové hlášky
+   * @param string    $content        Obsah chybové hlášky
+   * @param string    $alertType      Typ alertu
+*}
+
+<div class="alert{if $alertHeader != NULL} alert-block{/if}{if $alertType != ""} {$alertType}{/if}">
+    <h4 n:if="$alertHeader">{$alertHeader}</h4>
+
+    {$content}
+</div>
