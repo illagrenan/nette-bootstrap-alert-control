@@ -21,7 +21,7 @@
         "php": ">=5.3.0",
         "nette/nette": "@dev",
         "eloquent/enumeration": "@dev",
-        "illagrenan/nette-base-control": "dev-master"
+        "illagrenan/nette-base-control": "@dev"
     },
     "autoload": {
         "psr-0": {
