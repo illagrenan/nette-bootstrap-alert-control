@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Tento soubor je součástí doplňku "Nette Twitter Bootstrap alert"
+ * 
+ * Copyright (c) 2013 Václav Dohnal <hello@vaclavdohnal.cz>
+ */
+
 namespace Illagrenan\BootstrapAlert;
 
 use Illagrenan\BaseControl\BaseControl;
