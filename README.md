@@ -10,6 +10,9 @@
 }
 ```
 
+**Závislosti:**
+* [illagrenan/nette-base-control](https://github.com/illagrenan/nette-base-control)
+
 ## Použití
 
 **Vytvoření komponenty v presenteru**
